@@ -42,3 +42,37 @@ function div(a,b){
     console.log(a/b)
 }
 div(10,20)
+
+
+// let fname = "Anil";
+// let age = 21;
+
+// function sayName(){
+//     console.log("My name is " + fname + "age is " + age)
+// }
+// sayName() 
+
+let fname = "Anil";
+let age = 21;
+
+function sayName(){
+     console.log("My name is Anil" + fname + "age is" + age)
+     console.log('My Name is ' + fname + 'age is' + age)
+     console.log(`My Name is ${fname} age is ${age}`)
+}
+// double
+// single
+// template literal ( introduced is es6 after 2015)
+sayName()
+
+// Arrow Function
+
+
+// How to covert simple to arrow function 
+// 1.Remove function keyword and add let
+// 2.add = sign after function name 
+// 3.add => sign after ()
+
+// My name is Anil. Learning in Global
+
+
